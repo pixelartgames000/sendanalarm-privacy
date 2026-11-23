@@ -28,10 +28,10 @@ code{background:#f3f3f3;padding:1px 4px;border-radius:3px}a{color:#c2570c}
 <tr><td>Alarms</td><td>Alarm title, time, repeat days, who set it and for whom, whether it was heard, snoozed or dismissed, and when</td><td>You and your family members</td></tr>
 <tr><td>Device and notification data</td><td>A push notification token, device model, operating system version, app version, language and time zone</td><td>Your device, automatically</td></tr>
 <tr><td>Purchase data</td><td>Subscription status, product, purchase dates and an anonymous purchase ID. <b>We never receive your card or payment details.</b> Google Play handles payment.</td><td>Google Play and RevenueCat</td></tr>
-<tr><td>Usage and diagnostics</td><td>Screens viewed, buttons tapped, feature use, app opens, crash and error reports</td><td>Your device, automatically</td></tr>
+<tr><td>Usage and diagnostics</td><td>Screens viewed, buttons tapped, feature use, app opens, crash and error reports, and where the app was installed from (install source)</td><td>Your device, automatically</td></tr>
 </table>
 <p><b>Contacts.</b> If you choose <b>Invite from contacts</b>, the app opens your address book so you can pick a family member. The contact you pick is used on your phone to prepare the invite. <b>Your contacts are never uploaded to our servers.</b> The app does not change or add contacts.</p>
-<p><b>What we do not collect:</b> precise or approximate location, photos, files, microphone or camera recordings, call logs, SMS, or advertising ID for ad targeting.</p>
+<p><b>What we do not collect:</b> precise or approximate location, photos, files, microphone, camera or screen recordings, call logs, SMS, or advertising ID for ad targeting.</p>
 
 <h2>2. How we use your information</h2>
 <ul>
@@ -69,9 +69,10 @@ code{background:#f3f3f3;padding:1px 4px;border-radius:3px}a{color:#c2570c}
 <tr><td>Full-screen notifications, display over other apps</td><td>To show a ringing alarm over the lock screen, like a clock app</td></tr>
 <tr><td>Run at startup</td><td>To restore scheduled alarms after your phone restarts</td></tr>
 <tr><td>Foreground service (media playback), wake lock, vibrate</td><td>To play the alarm sound and vibrate while it rings</td></tr>
-<tr><td>Biometric</td><td>To protect stored sign-in credentials on your device</td></tr>
+<tr><td>Biometric</td><td>Requested by a secure-storage component. The app never collects fingerprint or face data.</td></tr>
 <tr><td>Internet, network state</td><td>To sync alarms and family data</td></tr>
 <tr><td>Google Play billing</td><td>To buy and manage subscriptions</td></tr>
+<tr><td>Storage (Android 12 and older only)</td><td>Added by a system library. The app does not read your files.</td></tr>
 </table>
 <p>You can turn off most permissions in Android Settings. Some features, such as alarms ringing on time, may not work without them.</p>
 
@@ -80,10 +81,10 @@ code{background:#f3f3f3;padding:1px 4px;border-radius:3px}a{color:#c2570c}
 <p>Analytics and crash data sent to PostHog is kept for up to 1 year, the retention period of PostHog's free plan, and is then deleted by PostHog.</p>
 <p>When you delete your account, we delete your personal data within 30 days. We may keep limited records, such as processing logs, for up to 1 year where the law requires it, for example under India's Digital Personal Data Protection Rules, 2025, or for security and fraud prevention. Analytics events already sent to PostHog are removed on our request or expire within the 1-year period. Backups are overwritten on a rolling basis.</p>
 
-<h2>6. Deleting your account and data</h2>
+<h2 id="delete">6. Deleting your account and data</h2>
 <ul>
 <li><b>In the app:</b> use the Delete account option in the app and confirm. This removes you from your family, cancels alarms you set, and deletes your data. It cannot be undone.</li>
-<li><b>Without the app:</b> email <a href="mailto:pixelartgames000@gmail.com">pixelartgames000@gmail.com</a> from the address linked to your account with the subject "Delete my account". We will delete your account and confirm within 30 days.</li>
+<li><b>Without the app:</b> email <a href="mailto:pixelartgames000@gmail.com">pixelartgames000@gmail.com</a> from the address linked to your account with the subject "Delete my account". You can use the same address to ask us to delete only some of your data, such as your alarms, without deleting your account. We will complete your request and confirm within 30 days.</li>
 <li>Deleting your account does not cancel a subscription. Cancel it in Google Play &gt; Payments &amp; subscriptions.</li>
 </ul>
 <p>A family member can remove you from their family. Your alarms are then removed from their phone, and you can no longer set alarms for them.</p>
@@ -95,7 +96,7 @@ code{background:#f3f3f3;padding:1px 4px;border-radius:3px}a{color:#c2570c}
 <p>Depending on where you live, you may have the right to access, correct, delete or export your data, to object to or limit some processing, and to withdraw consent. This includes rights under the GDPR (EU/UK), India's Digital Personal Data Protection Act, 2023, and US state laws such as the CCPA. To use these rights, contact us at the address below.</p>
 
 <h2>9. Children</h2>
-<p>Send An Alarm is meant for families, but accounts are for people aged 13 and older (or the minimum age in your country). We do not knowingly collect personal data from younger children. If you believe a child has given us data, contact us and we will delete it.</p>
+<p>Send An Alarm is meant for families, but accounts are for people aged 13 and older (or the minimum age in your country). We do not knowingly collect personal data from younger children. Users under 18 may use the app only with the consent of a parent or guardian. Where the law requires verifiable parental consent, such as under India's Digital Personal Data Protection Act, 2023, a parent or guardian must give that consent before a child's account is created. If you believe a child has given us data without this consent, contact us and we will delete it.</p>
 
 <h2>10. Changes to this policy</h2>
 <p>We may update this policy. We will post the new version at <a href="https://pixelartgames000.github.io/sendanalarm-privacy/">https://pixelartgames000.github.io/sendanalarm-privacy/</a> and change the effective date. For significant changes, we will notify you in the app.</p>
